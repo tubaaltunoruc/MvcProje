@@ -8,8 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
-{
-   public class EfHeadingDal : GenericRepository<Heading>, IHeadingDal
+{ 
+    public class EfWriterDal: GenericRepository<Writer>, IWriterDal
     {
+
     }
 }
